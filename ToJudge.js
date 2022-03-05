@@ -1,5 +1,5 @@
 
-const window = require('./WindowPrompt.js');
+const window = require('./Window.js');
 
 var a, b, c, d;
 

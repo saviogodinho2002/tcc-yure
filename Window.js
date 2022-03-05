@@ -4,7 +4,7 @@ module.exports = {
         let data = JSON.parse( fs.readFileSync('./arguments.json',"utf-8"));
 
         let  index = data.index;
-        i = index;
+        let i = index;
         index++;
         const newjson = {
             "index": index,

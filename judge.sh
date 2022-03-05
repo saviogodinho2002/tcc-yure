@@ -1,8 +1,6 @@
 #!/bin/bash
 
-ALIAS="\nconst window = require('./WindowPrompt.js');\n\n"
-
-CODE=`cat received.js`;
+ALIAS="\nconst window = require('./Window.js');\n\n"
 
 
 echo -e "`echo $ALIAS``cat received.js`" > ToJudge.js
